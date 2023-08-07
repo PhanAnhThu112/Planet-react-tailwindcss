@@ -13,8 +13,8 @@ const Developers = () => {
             liquidity.
           </p>
         </div>
-        <div className='flex justify-center w-full py-16'>
-            <img className='max-w-[250px] shadow-lg shadow-cyan-500/50' src={terminal} alt="/" />
+        <div className='flex justify-center w-full'>
+            <img className='max-w-[500px] shadow-lg shadow-cyan-500/50 transition-transform transform hover:scale-110 hover:cursor-pointer' src={terminal} alt="/" />
         </div>
       </div>
     </div>

@@ -22,8 +22,8 @@ const Hero = () => {
           applications.
         </p>
         <div>
-          <button className='m-2 transition-transform transform hover:scale-110'>Use Defi</button>
-          <button className='m-2 transition-transform transform hover:scale-110'>FAQ</button>
+          <button className='m-2 transition-transform transform hover:scale-110 hover:opacity-70'>Use Defi</button>
+          <button className='m-2 transition-transform transform hover:scale-110 hover:opacity-70'>FAQ</button>
         </div>
       </div>
       <div>

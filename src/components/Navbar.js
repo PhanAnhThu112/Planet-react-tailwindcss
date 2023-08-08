@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-<div className="w-full h-[90px] bg-black">
+    <div className="w-full h-[90px] bg-black">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
         <div>
           <h1 className="text-[#00d8ff]">
@@ -41,9 +41,10 @@ const Navbar = () => {
             <li className="hover:text-blue-500 transition-transform transform">
               <a href="#About">About</a>
             </li>
-            <button className="ml-4 transition-transform transform hover:scale-110 hover:opacity-70 "><a href="#UseDefi">Use Defi</a></button>
+            <button className="ml-4 transition-transform transform hover:scale-110 hover:opacity-70 ">
+              <a href="#UseDefi">Use Defi</a>
+            </button>
           </ul>
-          
         </div>
 
         {/* Hamburger menu */}
@@ -76,13 +77,14 @@ const Navbar = () => {
             <li className="text-2xl">
               <a href="#About">About</a>
             </li>
-            <button className="m-8 transition-transform transform hover:scale-110 ">Use Defi</button>
+            <button className="m-8 transition-transform transform hover:scale-110 ">
+              Use Defi
+            </button>
           </ul>
         </div>
       </div>
       {isLoading && <div className="loading-overlay"></div>}
     </div>
-    
   );
 };
 

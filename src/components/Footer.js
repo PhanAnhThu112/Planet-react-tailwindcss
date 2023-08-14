@@ -9,10 +9,18 @@ const Footer = () => {
             Products
           </h3>
           <ul>
-            <li><a href="/app">App</a></li>
-            <li><a href="/analytics">Analytics</a></li>
-            <li><a href="/token-list">Token List</a></li>
-            <li><a href="/defi">Defi</a></li>
+            <li>
+              <a href="/app">App</a>
+            </li>
+            <li>
+              <a href="/analytics">Analytics</a>
+            </li>
+            <li>
+              <a href="/token-list">Token List</a>
+            </li>
+            <li>
+              <a href="/defi">Defi</a>
+            </li>
           </ul>
         </div>
         <div>
@@ -20,10 +28,18 @@ const Footer = () => {
             Products
           </h3>
           <ul>
-            <li><a href="/app">App</a></li>
-            <li><a href="/analytics">Analytics</a></li>
-            <li><a href="/token-list">Token List</a></li>
-            <li><a href="/defi">Defi</a></li>
+            <li>
+              <a href="/app">App</a>
+            </li>
+            <li>
+              <a href="/analytics">Analytics</a>
+            </li>
+            <li>
+              <a href="/token-list">Token List</a>
+            </li>
+            <li>
+              <a href="/defi">Defi</a>
+            </li>
           </ul>
         </div>
         <div>
@@ -31,10 +47,18 @@ const Footer = () => {
             Products
           </h3>
           <ul>
-            <li><a href="/app">App</a></li>
-            <li><a href="/analytics">Analytics</a></li>
-            <li><a href="/token-list">Token List</a></li>
-            <li><a href="/defi">Defi</a></li>
+            <li>
+              <a href="/app">App</a>
+            </li>
+            <li>
+              <a href="/analytics">Analytics</a>
+            </li>
+            <li>
+              <a href="/token-list">Token List</a>
+            </li>
+            <li>
+              <a href="/defi">Defi</a>
+            </li>
           </ul>
         </div>
         <div>
@@ -42,10 +66,18 @@ const Footer = () => {
             Products
           </h3>
           <ul>
-            <li><a href="/app">App</a></li>
-            <li><a href="/analytics">Analytics</a></li>
-            <li><a href="/token-list">Token List</a></li>
-            <li><a href="/defi">Defi</a></li>
+            <li>
+              <a href="/app">App</a>
+            </li>
+            <li>
+              <a href="/analytics">Analytics</a>
+            </li>
+            <li>
+              <a href="/token-list">Token List</a>
+            </li>
+            <li>
+              <a href="/defi">Defi</a>
+            </li>
           </ul>
         </div>
         <div>
@@ -53,10 +85,18 @@ const Footer = () => {
             Products
           </h3>
           <ul>
-            <li><a href="/app">App</a></li>
-            <li><a href="/analytics">Analytics</a></li>
-            <li><a href="/token-list">Token List</a></li>
-            <li><a href="/defi">Defi</a></li>
+            <li>
+              <a href="/app">App</a>
+            </li>
+            <li>
+              <a href="/analytics">Analytics</a>
+            </li>
+            <li>
+              <a href="/token-list">Token List</a>
+            </li>
+            <li>
+              <a href="/defi">Defi</a>
+            </li>
           </ul>
         </div>
       </div>

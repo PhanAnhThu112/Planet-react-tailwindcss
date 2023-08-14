@@ -16,7 +16,7 @@ const Developers = () => {
         </div>
         <div className="flex justify-center w-full">
           <img
-            className="max-w-[500px] shadow-lg shadow-cyan-500/50 transition-transform transform hover:scale-110 hover:cursor-pointer"
+            className="max-w-[450px] mt-10 shadow-lg shadow-cyan-500/50 transition-transform transform hover:scale-110 hover:cursor-pointer"
             src={terminal}
             alt="/"
           />

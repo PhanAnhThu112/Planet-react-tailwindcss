@@ -21,7 +21,7 @@ const Subscribe = () => {
     } else if (!isChecked) {
       setError("Please agree to receive email communications.");
     } else {
-      // Both conditions are met, navigate to the #signIn link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               x
+      // Both conditions are met, navigate to the #SignUp link
       window.location.href = "#SignUp";
     }
   };
@@ -46,15 +46,17 @@ const Subscribe = () => {
       </div>
       {error && <p className="text-red-500">{error}</p>}
       <div className="flex items-center justify-center py-2">
-        <input
-          className="mr-2 hover:cursor-pointer"
-          type="checkbox"
-          checked={isChecked}
-          onChange={handleCheckboxChange}
-        />
-        <p className={isChecked ? "text-blue-500" : ""}>
-          Yes, I agree to receive email communications from DeFi.
-        </p>
+        <label className="cursor-pointer flex items-center">
+          <input
+            className="mr-2"
+            type="checkbox"
+            checked={isChecked}
+            onChange={handleCheckboxChange}
+          />
+          <span className={isChecked ? "text-blue-500" : ""}>
+            Yes, I agree to receive email communications from DeFi.
+          </span>
+        </label>
       </div>
     </div>
   );
